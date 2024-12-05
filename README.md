@@ -8,8 +8,8 @@ dehazing, defocus deblurring, and desnowing demonstrate the model’s effectiven
 ## DataSets Used For Image Restoration
 
 Image Dehazing:
-[ SOTS ](https://www.kaggle.com/datasets/balraj98/synthetic-objective-testing-set-sots-reside/data),
-[ Dense-Haze](https://www.kaggle.com/datasets/rajat95gupta/hazing-images-dataset-cvpr-2019),
+[SOTS,](https://www.kaggle.com/datasets/balraj98/synthetic-objective-testing-set-sots-reside/data)
+[Dense-Haze,](https://www.kaggle.com/datasets/rajat95gupta/hazing-images-dataset-cvpr-2019)
 [NHR](https://wuminye.github.io/NHR/datasets.html#downloads)
 
 Defocus deblurring:
@@ -34,7 +34,7 @@ cd pytorch-gradual-warmup-lr/
 python setup.py install
 cd ..
 ~~~
-## Training and Evaluation
+## Training and Evaluation Results
 
 |Task|Dataset|PSNR|SSIM|
 |----|------|-----|----|
